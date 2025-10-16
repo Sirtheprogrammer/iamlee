@@ -54,8 +54,10 @@ function App() {
                 {[
                   { id: 'home', label: 'Home' },
                   { id: 'about', label: 'About' },
-                  { id: 'services', label: 'Services' },
-                  { id: 'portfolio', label: 'Portfolio' },
+                  { id: 'verification', label: 'Verification' },
+                  { id: 'boosting', label: 'Social Boost' },
+                  { id: 'logos', label: 'Logo Design' },
+                  { id: 'visibility', label: 'Online Presence' },
                   { id: 'contact', label: 'Contact' }
                 ].map((item) => (
                   <button
@@ -76,19 +78,24 @@ function App() {
             {/* Social Links & CTA */}
             <div className="hidden md:flex items-center space-x-6">
               <div className="flex items-center space-x-4">
-                <a href="https://instagram.com/iamlee" className="text-gray-400 hover:text-pink-400 transition-colors duration-300">
+                <a href="https://www.instagram.com/iamlee316" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-pink-400 transition-colors duration-300">
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.097.118.112.221.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.624 0 11.99-5.367 11.99-11.987C24.007 5.367 18.641.001.012.001z"/>
                   </svg>
                 </a>
-                <a href="https://twitter.com/iamlee" className="text-gray-400 hover:text-blue-400 transition-colors duration-300">
+                <a href="https://www.tiktok.com/@iamlee316" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-800 transition-colors duration-300">
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                    <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-.88-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z"/>
                   </svg>
                 </a>
-                <a href="https://youtube.com/iamlee" className="text-gray-400 hover:text-red-400 transition-colors duration-300">
+                <a href="https://www.youtube.com/@iamlee316" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-400 transition-colors duration-300">
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                  </svg>
+                </a>
+                <a href="https://www.instagram.com/labda_sio_lee" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transition-colors duration-300">
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.097.118.112.221.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.624 0 11.99-5.367 11.99-11.987C24.007 5.367 18.641.001.012.001z"/>
                   </svg>
                 </a>
               </div>
@@ -118,8 +125,10 @@ function App() {
               {[
                 { id: 'home', label: 'Home' },
                 { id: 'about', label: 'About' },
-                { id: 'services', label: 'Services' },
-                { id: 'portfolio', label: 'Portfolio' },
+                { id: 'verification', label: 'Verification Services' },
+                { id: 'boosting', label: 'Social Media Boost' },
+                { id: 'logos', label: 'Logo Design' },
+                { id: 'visibility', label: 'Online Presence' },
                 { id: 'contact', label: 'Contact' }
               ].map((item) => (
                 <button
@@ -171,7 +180,7 @@ function App() {
               <div className={`mb-6 transition-all duration-1000 delay-200 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
                 <span className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-gradient-to-r from-emerald-500/20 to-cyan-500/20 text-emerald-400 border border-emerald-500/30">
                   <span className="w-2 h-2 bg-emerald-400 rounded-full mr-2 animate-pulse"></span>
-                  Available for Collaborations
+                  Available for Music Promotion & Social Media Services
                 </span>
               </div>
 
@@ -186,11 +195,11 @@ function App() {
               {/* Professional Title */}
               <div className={`mb-8 transition-all duration-1000 delay-400 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
                 <h2 className="text-2xl md:text-3xl lg:text-4xl font-light text-gray-300 mb-4">
-                  Professional Content Creator
+                  Music Promotion Content Creator & Social Media Expert
                 </h2>
                 <p className="text-lg md:text-xl text-gray-400 leading-relaxed max-w-2xl">
-                  Specializing in lifestyle, technology, and creative content across multiple platforms.
-                  Trusted by <span className="text-cyan-400 font-semibold">50K+ followers</span> for authentic storytelling and engaging digital experiences.
+                  Specializing in music promotion, social media account management, and boosting online presence.
+                  Trusted by <span className="text-cyan-400 font-semibold">artists and businesses</span> for authentic growth and verified results across all platforms.
                 </p>
               </div>
 
@@ -239,31 +248,29 @@ function App() {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               <span className="bg-gradient-to-r from-cyan-400 to-blue-600 bg-clip-text text-transparent">About</span>
-              <span className="text-white block mt-2">My Journey</span>
+              <span className="text-white block mt-2">IAMLEE</span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              From passionate hobbyist to professional content creator, discover the story behind the lens and the dedication that drives exceptional digital content.
+              Music promotion content creator and social media expert specializing in account verification services, social media boosting, and digital presence enhancement.
             </p>
           </div>
           
           <div className="grid lg:grid-cols-2 gap-16 items-center mb-20">
             <div>
-              <h3 className="text-3xl font-bold mb-6 text-white">Building Digital Communities</h3>
+              <h3 className="text-3xl font-bold mb-6 text-white">Digital Marketing Expertise</h3>
               <div className="space-y-4 text-gray-300 leading-relaxed">
                 <p>
-                  With over <span className="text-cyan-400 font-semibold">5 years of experience</span> in content creation,
-                  I've had the privilege of building engaged communities across multiple platforms and collaborating
-                  with leading brands worldwide.
+                  With extensive experience in <span className="text-cyan-400 font-semibold">music promotion</span> and
+                  social media management, I help artists and businesses establish strong online presence through
+                  strategic content creation and platform optimization.
                 </p>
                 <p>
-                  My approach combines <span className="text-purple-400 font-semibold">authentic storytelling</span> with
-                  strategic content planning to deliver measurable results for partners while maintaining
-                  genuine connections with my audience.
+                  My specialization includes <span className="text-purple-400 font-semibold">Instagram/WhatsApp verification services</span>,
+                  social media boosting, logo design, and enhancing business visibility across digital platforms.
                 </p>
                 <p>
-                  Every piece of content is crafted with intention - whether it's a captivating Instagram story,
-                  an in-depth YouTube tutorial, or a thoughtful Twitter thread, each serves a purpose in the
-                  larger narrative of digital connection.
+                  Every service is delivered with <span className="text-emerald-400 font-semibold">proven results</span> and
+                  guaranteed satisfaction, backed by years of successful partnerships with artists and businesses.
                 </p>
               </div>
             </div>
@@ -272,41 +279,41 @@ function App() {
               <div className="bg-slate-800/50 p-6 rounded-xl border border-slate-700 hover:border-cyan-400/50 transition-all duration-300 group">
                 <div className="w-12 h-12 bg-gradient-to-r from-cyan-400 to-blue-600 rounded-lg mb-4 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <div className="text-xl font-bold text-white mb-2">Community Building</div>
-                <div className="text-gray-400 text-sm">Growing engaged audiences</div>
+                <div className="text-xl font-bold text-white mb-2">Account Verification</div>
+                <div className="text-gray-400 text-sm">Blue tick services</div>
               </div>
               
               <div className="bg-slate-800/50 p-6 rounded-xl border border-slate-700 hover:border-purple-400/50 transition-all duration-300 group">
                 <div className="w-12 h-12 bg-gradient-to-r from-purple-400 to-pink-600 rounded-lg mb-4 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
-                <div className="text-xl font-bold text-white mb-2">Video Production</div>
-                <div className="text-gray-400 text-sm">Professional content creation</div>
+                <div className="text-xl font-bold text-white mb-2">Social Media Boost</div>
+                <div className="text-gray-400 text-sm">Growth & engagement</div>
               </div>
               
               <div className="bg-slate-800/50 p-6 rounded-xl border border-slate-700 hover:border-emerald-400/50 transition-all duration-300 group">
                 <div className="w-12 h-12 bg-gradient-to-r from-emerald-400 to-teal-600 rounded-lg mb-4 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a4 4 0 004-4V5z" />
                   </svg>
                 </div>
-                <div className="text-xl font-bold text-white mb-2">Brand Strategy</div>
-                <div className="text-gray-400 text-sm">Strategic partnerships</div>
+                <div className="text-xl font-bold text-white mb-2">Logo Design</div>
+                <div className="text-gray-400 text-sm">Professional branding</div>
               </div>
               
               <div className="bg-slate-800/50 p-6 rounded-xl border border-slate-700 hover:border-orange-400/50 transition-all duration-300 group">
                 <div className="w-12 h-12 bg-gradient-to-r from-orange-400 to-red-600 rounded-lg mb-4 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 4V2a1 1 0 011-1h8a1 1 0 011 1v2M7 4H5a2 2 0 00-2 2v10a2 2 0 002 2h14a2 2 0 002-2V6a2 2 0 00-2-2h-2M7 4h10M8 8h8m-8 4h8m-8 4h4" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 0a9 9 0 01-9-9m9 9a9 9 0 00-9 9m9-9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9h.01" />
                   </svg>
                 </div>
-                <div className="text-xl font-bold text-white mb-2">Content Strategy</div>
-                <div className="text-gray-400 text-sm">Planning & execution</div>
+                <div className="text-xl font-bold text-white mb-2">Online Visibility</div>
+                <div className="text-gray-400 text-sm">Maps & presence</div>
               </div>
             </div>
           </div>
@@ -315,124 +322,393 @@ function App() {
           <div className="bg-gradient-to-r from-slate-800/50 to-slate-700/50 rounded-2xl p-8 border border-slate-700">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               <div>
-                <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-cyan-400 to-blue-600 bg-clip-text text-transparent mb-2">50K+</div>
-                <div className="text-gray-400 font-medium">Instagram Followers</div>
+                <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-cyan-400 to-blue-600 bg-clip-text text-transparent mb-2">100+</div>
+                <div className="text-gray-400 font-medium">Verified Accounts</div>
               </div>
               <div>
-                <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent mb-2">25K+</div>
-                <div className="text-gray-400 font-medium">YouTube Subscribers</div>
+                <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent mb-2">500+</div>
+                <div className="text-gray-400 font-medium">Social Boosts</div>
               </div>
               <div>
-                <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-emerald-400 to-teal-600 bg-clip-text text-transparent mb-2">100+</div>
-                <div className="text-gray-400 font-medium">Brand Partnerships</div>
+                <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-emerald-400 to-teal-600 bg-clip-text text-transparent mb-2">200+</div>
+                <div className="text-gray-400 font-medium">Logo Designs</div>
               </div>
               <div>
-                <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-orange-400 to-red-600 bg-clip-text text-transparent mb-2">1M+</div>
-                <div className="text-gray-400 font-medium">Total Reach</div>
+                <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-orange-400 to-red-600 bg-clip-text text-transparent mb-2">150+</div>
+                <div className="text-gray-400 font-medium">Business Maps</div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Services Section */}
-      <section id="services" className="py-20 bg-slate-800/30">
+      {/* Verification Services Section */}
+      <section id="verification" className="py-20 bg-slate-800/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              <span className="text-white">Professional</span>
-              <span className="block bg-gradient-to-r from-cyan-400 to-blue-600 bg-clip-text text-transparent">Services</span>
+              <span className="text-white">Account</span>
+              <span className="block bg-gradient-to-r from-cyan-400 to-blue-600 bg-clip-text text-transparent">Verification Services</span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Comprehensive content creation and digital marketing services tailored to elevate your brand's online presence.
+              Get your Instagram and WhatsApp accounts verified with the official blue tick at affordable rates.
+              Professional service with guaranteed results.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-            {[
-              {
-                title: "Brand Collaboration",
-                description: "Strategic partnerships that align with your brand values and reach target audiences effectively.",
-                features: ["Sponsored content", "Product reviews", "Brand ambassadorship", "Long-term partnerships"],
-                gradient: "from-blue-500 to-cyan-600"
-              },
-              {
-                title: "Content Creation",
-                description: "Professional photography and videography services for social media and marketing campaigns.",
-                features: ["Photo shoots", "Video production", "Story creation", "Post-production editing"],
-                gradient: "from-purple-500 to-pink-600"
-              },
-              {
-                title: "Social Media Strategy",
-                description: "Comprehensive social media management and growth strategies for maximum engagement.",
-                features: ["Content calendars", "Audience growth", "Engagement optimization", "Analytics & reporting"],
-                gradient: "from-emerald-500 to-teal-600"
-              }
-            ].map((service, index) => (
-              <div key={index} className="bg-slate-800/50 p-8 rounded-xl border border-slate-700 hover:border-slate-600 transition-all duration-300 group hover:bg-slate-800/70">
-                <div className={`w-16 h-16 bg-gradient-to-r ${service.gradient} rounded-xl mb-6 flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+          <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+            <div>
+              <h3 className="text-3xl font-bold mb-6 text-white">Why Get Verified?</h3>
+              <div className="space-y-4 text-gray-300 leading-relaxed">
+                <p>
+                  <span className="text-cyan-400 font-semibold">Official blue tick verification</span> adds credibility
+                  and authenticity to your social media presence, making your account stand out from the crowd.
+                </p>
+                <p>
+                  Our service provides <span className="text-purple-400 font-semibold">fast, reliable verification</span>
+                  for both Instagram and WhatsApp at competitive prices with money-back guarantee.
+                </p>
+                <div className="bg-slate-800/50 p-6 rounded-lg border border-slate-700">
+                  <h4 className="text-lg font-semibold text-white mb-3">Service Includes:</h4>
+                  <ul className="space-y-2 text-gray-300">
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-cyan-400 rounded-full mr-3"></div>
+                      Instagram Blue Tick Verification
+                    </li>
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-cyan-400 rounded-full mr-3"></div>
+                      WhatsApp Business Verification
+                    </li>
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-cyan-400 rounded-full mr-3"></div>
+                      Official Badge Authentication
+                    </li>
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-cyan-400 rounded-full mr-3"></div>
+                      24/7 Support & Guidance
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-slate-800/50 to-slate-700/50 rounded-2xl p-8 border border-slate-700">
+              <div className="text-center mb-8">
+                <div className="w-20 h-20 bg-gradient-to-r from-cyan-400 to-blue-600 rounded-full mx-auto mb-4 flex items-center justify-center">
+                  <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-4">{service.title}</h3>
-                <p className="text-gray-400 mb-6 leading-relaxed">{service.description}</p>
-                <ul className="space-y-2">
-                  {service.features.map((feature, idx) => (
-                    <li key={idx} className="flex items-center text-gray-300">
-                      <div className="w-2 h-2 bg-cyan-400 rounded-full mr-3"></div>
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
+                <h3 className="text-2xl font-bold text-white mb-2">Starting from</h3>
+                <div className="text-4xl font-bold bg-gradient-to-r from-cyan-400 to-blue-600 bg-clip-text text-transparent">
+                  $50
+                </div>
+                <p className="text-gray-400">per verification</p>
               </div>
-            ))}
+              <button className="w-full bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
+                Get Verified Now
+              </button>
+            </div>
           </div>
 
-          <div className="text-center">
-            <button className="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-cyan-400/25">
-              Discuss Your Project
-            </button>
+          {/* Verification Proof Gallery */}
+          <div>
+            <h3 className="text-2xl font-bold text-white text-center mb-8">Success Stories</h3>
+            <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-4">
+              {[
+                'account1_ver.jpeg',
+                'account2_ver.jpeg',
+                'account3_ver.jpeg',
+                'account4_ver.jpeg',
+                'account5_ver.jpeg'
+              ].map((image, index) => (
+                <div key={index} className="group bg-slate-800/30 p-4 rounded-lg border border-slate-700 hover:border-cyan-400/50 transition-all duration-300">
+                  <img
+                    src={`/pics/${image}`}
+                    alt={`Verification success story ${index + 1}`}
+                    className="w-full h-32 object-cover rounded-lg mb-3 group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="text-center">
+                    <div className="w-3 h-3 bg-emerald-400 rounded-full mx-auto mb-2"></div>
+                    <span className="text-xs text-gray-400">Verified Account</span>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Portfolio Preview Section */}
-      <section id="portfolio" className="py-20 bg-gradient-to-br from-slate-900 to-black">
+      {/* Social Media Boosting Section */}
+      <section id="boosting" className="py-20 bg-slate-900/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              <span className="text-white">Featured</span>
-              <span className="block bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent">Work</span>
+              <span className="text-white">Social Media</span>
+              <span className="block bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent">Boosting Services</span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              A showcase of successful collaborations and creative projects that demonstrate the power of strategic content creation.
+              Boost your social media presence with real engagement, followers, and subscribers across Instagram,
+              Threads, Facebook, and YouTube.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
             {[
-              { platform: "Instagram Campaign", brand: "TechCorp", type: "Product Launch", gradient: "from-pink-500 to-rose-600" },
-              { platform: "YouTube Series", brand: "LifeStyle Co", type: "Brand Story", gradient: "from-blue-500 to-indigo-600" },
-              { platform: "Twitter Thread", brand: "FinanceHub", type: "Educational Content", gradient: "from-emerald-500 to-teal-600" }
-            ].map((project, index) => (
-              <div key={index} className="group bg-slate-800/30 p-6 rounded-xl border border-slate-700 hover:border-slate-600 transition-all duration-300 hover:bg-slate-800/50 cursor-pointer">
-                <div className={`w-full h-48 bg-gradient-to-br ${project.gradient} rounded-lg mb-6 flex items-center justify-center group-hover:scale-105 transition-transform duration-300`}>
-                  <div className="text-center text-white">
-                    <div className="text-2xl font-bold mb-2">{project.platform}</div>
-                    <div className="text-sm opacity-90">{project.brand}</div>
-                  </div>
-                </div>
-                <h3 className="text-xl font-bold text-white mb-2">{project.brand}</h3>
-                <p className="text-gray-400 mb-4">{project.type}</p>
-                <div className="flex items-center text-cyan-400 group-hover:text-cyan-300 transition-colors duration-300">
-                  <span className="text-sm font-medium">View Project</span>
-                  <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              {
+                platform: "Instagram",
+                icon: "M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.097.118.112.221.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.624 0 11.99-5.367 11.99-11.987C24.007 5.367 18.641.001.012.001z",
+                color: "pink"
+              },
+              {
+                platform: "YouTube",
+                icon: "M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z",
+                color: "red"
+              },
+              {
+                platform: "Facebook",
+                icon: "M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z",
+                color: "blue"
+              },
+              {
+                platform: "Threads",
+                icon: "M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.097.118.112.221.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.624 0 11.99-5.367 11.99-11.987C24.007 5.367 18.641.001.012.001z",
+                color: "purple"
+              }
+            ].map((item, index) => (
+              <div key={index} className="bg-slate-800/50 p-6 rounded-xl border border-slate-700 hover:border-slate-600 transition-all duration-300 group hover:bg-slate-800/70">
+                <div className={`w-16 h-16 bg-gradient-to-r from-${item.color}-400 to-${item.color}-600 rounded-xl mb-4 flex items-center justify-center group-hover:scale-110 transition-transform duration-300 mx-auto`}>
+                  <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                    <path d={item.icon} />
                   </svg>
+                </div>
+                <h3 className="text-xl font-bold text-white mb-4 text-center">{item.platform}</h3>
+                <div className="space-y-2 text-center">
+                  <div className="flex items-center justify-center text-gray-300">
+                    <div className="w-2 h-2 bg-cyan-400 rounded-full mr-2"></div>
+                    <span className="text-sm">Followers</span>
+                  </div>
+                  <div className="flex items-center justify-center text-gray-300">
+                    <div className="w-2 h-2 bg-purple-400 rounded-full mr-2"></div>
+                    <span className="text-sm">Likes</span>
+                  </div>
+                  <div className="flex items-center justify-center text-gray-300">
+                    <div className="w-2 h-2 bg-pink-400 rounded-full mr-2"></div>
+                    <span className="text-sm">Views</span>
+                  </div>
                 </div>
               </div>
             ))}
+          </div>
+
+          {/* Boosting Proof Gallery */}
+          <div>
+            <h3 className="text-2xl font-bold text-white text-center mb-8">Results Gallery</h3>
+            <div className="grid md:grid-cols-3 gap-6">
+              {[
+                'socialboosting1.jpeg',
+                'socialboost2.jpeg',
+                'socialboosting3.jpeg'
+              ].map((image, index) => (
+                <div key={index} className="group bg-slate-800/30 p-4 rounded-lg border border-slate-700 hover:border-purple-400/50 transition-all duration-300">
+                  <img
+                    src={`/pics/${image}`}
+                    alt={`Social media boost result ${index + 1}`}
+                    className="w-full h-48 object-cover rounded-lg mb-3 group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="text-center">
+                    <div className="flex justify-center space-x-1 mb-2">
+                      <div className="w-2 h-2 bg-purple-400 rounded-full"></div>
+                      <div className="w-2 h-2 bg-cyan-400 rounded-full"></div>
+                      <div className="w-2 h-2 bg-pink-400 rounded-full"></div>
+                    </div>
+                    <span className="text-sm text-gray-400">Boost Results</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Logo Design Section */}
+      <section id="logos" className="py-20 bg-slate-800/30">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+              <span className="text-white">Professional</span>
+              <span className="block bg-gradient-to-r from-emerald-400 to-teal-600 bg-clip-text text-transparent">Logo Design</span>
+            </h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              Create a lasting impression with professionally designed logos that capture your brand's essence
+              and stand out in the digital landscape.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+            <div>
+              <h3 className="text-3xl font-bold mb-6 text-white">Brand Identity Design</h3>
+              <div className="space-y-4 text-gray-300 leading-relaxed">
+                <p>
+                  Every business needs a <span className="text-emerald-400 font-semibold">memorable logo</span> that
+                  represents their values and creates instant recognition. Our professional logo design service
+                  delivers exactly that.
+                </p>
+                <p>
+                  We work closely with you to understand your vision and create designs that are
+                  <span className="text-teal-400 font-semibold">unique, scalable, and versatile</span> across all platforms.
+                </p>
+                <div className="bg-slate-800/50 p-6 rounded-lg border border-slate-700">
+                  <h4 className="text-lg font-semibold text-white mb-3">Design Package Includes:</h4>
+                  <ul className="space-y-2 text-gray-300">
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-emerald-400 rounded-full mr-3"></div>
+                      Multiple Design Concepts
+                    </li>
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-emerald-400 rounded-full mr-3"></div>
+                      High-Resolution Files
+                    </li>
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-emerald-400 rounded-full mr-3"></div>
+                      Vector & Raster Formats
+                    </li>
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-emerald-400 rounded-full mr-3"></div>
+                      Brand Guidelines
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-slate-800/50 to-slate-700/50 rounded-2xl p-8 border border-slate-700">
+              <div className="text-center mb-8">
+                <div className="w-20 h-20 bg-gradient-to-r from-emerald-400 to-teal-600 rounded-full mx-auto mb-4 flex items-center justify-center">
+                  <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a4 4 0 004-4V5z" />
+                  </svg>
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-2">Starting from</h3>
+                <div className="text-4xl font-bold bg-gradient-to-r from-emerald-400 to-teal-600 bg-clip-text text-transparent">
+                  $25
+                </div>
+                <p className="text-gray-400">per logo design</p>
+              </div>
+              <button className="w-full bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
+                Design My Logo
+              </button>
+            </div>
+          </div>
+
+          {/* Logo Portfolio Gallery */}
+          <div>
+            <h3 className="text-2xl font-bold text-white text-center mb-8">Portfolio Gallery</h3>
+            <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-4">
+              {[
+                'logodesign1.jpeg',
+                'logodesign2.jpeg',
+                'logodesign3.jpeg',
+                'logodesign4.jpeg',
+                'logodesig5.jpeg'
+              ].map((image, index) => (
+                <div key={index} className="group bg-slate-800/30 p-4 rounded-lg border border-slate-700 hover:border-emerald-400/50 transition-all duration-300">
+                  <img
+                    src={`/pics/${image}`}
+                    alt={`Logo design ${index + 1}`}
+                    className="w-full h-32 object-contain rounded-lg mb-3 group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="text-center">
+                    <div className="w-3 h-3 bg-emerald-400 rounded-full mx-auto mb-2"></div>
+                    <span className="text-xs text-gray-400">Logo Design</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Online Visibility Section */}
+      <section id="visibility" className="py-20 bg-slate-900/50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+              <span className="text-white">Online</span>
+              <span className="block bg-gradient-to-r from-orange-400 to-red-600 bg-clip-text text-transparent">Business Visibility</span>
+            </h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              Make your business easily discoverable online with enhanced map presence and location services
+              that drive customers to your doorstep.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+            <div>
+              <h3 className="text-3xl font-bold mb-6 text-white">Google Maps & Location Services</h3>
+              <div className="space-y-4 text-gray-300 leading-relaxed">
+                <p>
+                  Ensure your business appears prominently in <span className="text-orange-400 font-semibold">Google Maps,
+                  Apple Maps, and other navigation services</span> so customers can easily find you.
+                </p>
+                <p>
+                  Our service optimizes your business listing with accurate information, photos, and
+                  enhanced visibility to improve local search rankings.
+                </p>
+                <div className="bg-slate-800/50 p-6 rounded-lg border border-slate-700">
+                  <h4 className="text-lg font-semibold text-white mb-3">Visibility Package:</h4>
+                  <ul className="space-y-2 text-gray-300">
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-orange-400 rounded-full mr-3"></div>
+                      Google Maps Integration
+                    </li>
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-orange-400 rounded-full mr-3"></div>
+                      Apple Maps Listing
+                    </li>
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-orange-400 rounded-full mr-3"></div>
+                      Business Information Optimization
+                    </li>
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-orange-400 rounded-full mr-3"></div>
+                      Local SEO Enhancement
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-slate-800/50 to-slate-700/50 rounded-2xl p-8 border border-slate-700">
+              <div className="text-center mb-8">
+                <div className="w-20 h-20 bg-gradient-to-r from-orange-400 to-red-600 rounded-full mx-auto mb-4 flex items-center justify-center">
+                  <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-2">Starting from</h3>
+                <div className="text-4xl font-bold bg-gradient-to-r from-orange-400 to-red-600 bg-clip-text text-transparent">
+                  $30
+                </div>
+                <p className="text-gray-400">one-time setup</p>
+              </div>
+              <button className="w-full bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
+                Enhance My Visibility
+              </button>
+            </div>
+          </div>
+
+          {/* Visibility Poster */}
+          <div className="text-center">
+            <h3 className="text-2xl font-bold text-white mb-8">Service Overview</h3>
+            <div className="max-w-2xl mx-auto">
+              <img
+                src="/pics/wekabisharayakoonline.jpeg"
+                alt="Online Business Visibility Service"
+                className="w-full rounded-lg shadow-2xl border border-slate-700"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -463,7 +739,7 @@ function App() {
                     </div>
                     <div>
                       <div className="text-white font-medium">Email</div>
-                      <div className="text-gray-400">hello@iamlee.com</div>
+                      <div className="text-gray-400">leonardvicent316@gmail.com</div>
                     </div>
                   </div>
                   <div className="flex items-center space-x-4">
@@ -507,47 +783,50 @@ function App() {
                 IAMLEE
               </h3>
               <p className="text-gray-400 leading-relaxed mb-4 max-w-md">
-                Professional content creator and social media strategist dedicated to creating
-                meaningful connections through authentic digital storytelling.
+                Music promotion content creator and social media expert specializing in account verification,
+                social media boosting, logo design, and online business visibility services.
               </p>
               <div className="flex space-x-4">
-                <a href="https://instagram.com/iamlee" className="w-10 h-10 bg-slate-800 hover:bg-pink-600 rounded-lg flex items-center justify-center text-gray-400 hover:text-white transition-all duration-300 hover:scale-110">
+                <a href="https://www.instagram.com/iamlee316" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-slate-800 hover:bg-pink-600 rounded-lg flex items-center justify-center text-gray-400 hover:text-white transition-all duration-300 hover:scale-110">
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.097.118.112.221.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.624 0 11.99-5.367 11.99-11.987C24.007 5.367 18.641.001.012.001z"/>
                   </svg>
                 </a>
-                <a href="https://twitter.com/iamlee" className="w-10 h-10 bg-slate-800 hover:bg-blue-500 rounded-lg flex items-center justify-center text-gray-400 hover:text-white transition-all duration-300 hover:scale-110">
+                <a href="https://www.tiktok.com/@iamlee316" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-slate-800 hover:bg-gray-800 rounded-lg flex items-center justify-center text-gray-400 hover:text-white transition-all duration-300 hover:scale-110">
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                    <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-.88-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z"/>
                   </svg>
                 </a>
-                <a href="https://youtube.com/iamlee" className="w-10 h-10 bg-slate-800 hover:bg-red-600 rounded-lg flex items-center justify-center text-gray-400 hover:text-white transition-all duration-300 hover:scale-110">
+                <a href="https://www.youtube.com/@iamlee316" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-slate-800 hover:bg-red-600 rounded-lg flex items-center justify-center text-gray-400 hover:text-white transition-all duration-300 hover:scale-110">
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                  </svg>
+                </a>
+                <a href="https://www.instagram.com/labda_sio_lee" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-slate-800 hover:bg-purple-600 rounded-lg flex items-center justify-center text-gray-400 hover:text-white transition-all duration-300 hover:scale-110">
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.097.118.112.221.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.624 0 11.99-5.367 11.99-11.987C24.007 5.367 18.641.001.012.001z"/>
                   </svg>
                 </a>
               </div>
             </div>
 
             <div>
-              <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
+              <h4 className="text-lg font-semibold text-white mb-4">Services</h4>
               <ul className="space-y-2">
-                {['About', 'Services', 'Portfolio', 'Contact'].map((link) => (
-                  <li key={link}>
-                    <button className="text-gray-400 hover:text-cyan-400 transition-colors duration-300 text-left">
-                      {link}
-                    </button>
+                {['Account Verification', 'Social Media Boost', 'Logo Design', 'Online Visibility'].map((service) => (
+                  <li key={service}>
+                    <span className="text-gray-400 text-sm">{service}</span>
                   </li>
                 ))}
               </ul>
             </div>
 
             <div>
-              <h4 className="text-lg font-semibold text-white mb-4">Services</h4>
+              <h4 className="text-lg font-semibold text-white mb-4">Platforms</h4>
               <ul className="space-y-2">
-                {['Brand Collaboration', 'Content Creation', 'Social Strategy'].map((service) => (
-                  <li key={service}>
-                    <span className="text-gray-400 text-sm">{service}</span>
+                {['Instagram', 'WhatsApp', 'YouTube', 'TikTok', 'Facebook'].map((platform) => (
+                  <li key={platform}>
+                    <span className="text-gray-400 text-sm">{platform}</span>
                   </li>
                 ))}
               </ul>
@@ -556,7 +835,7 @@ function App() {
 
           <div className="pt-8 border-t border-slate-800 text-center">
             <p className="text-gray-400 text-sm">
-              © 2025 IAMLEE. All rights reserved. | Professional Content Creator & Digital Strategist
+              © 2025 IAMLEE. All rights reserved. | Music Promotion Content Creator & Social Media Services Expert
             </p>
           </div>
         </div>
