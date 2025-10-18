@@ -8,7 +8,6 @@ function App() {
   const [activeSection, setActiveSection] = useState('home');
   const [lightboxImage, setLightboxImage] = useState(null);
 
-  // AI Chat states
   const [isChatOpen, setIsChatOpen] = useState(false);
   const [messages, setMessages] = useState([
     {
@@ -21,7 +20,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(false);
   const messagesEndRef = useRef(null);
 
-  // Initialize Gemini AI
+
   const genAI = new GoogleGenerativeAI('AIzaSyBek6oPwYsAjivwEBKN6R_LXrAz1ivduUc');
   const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
 
